@@ -7,7 +7,8 @@ Public class Engine{
     
     static ArrayList<Integer> posX=new ArrayList<>();
     static ArrayList<Integer> posY=new ArrayList<>();
-    
+    static ArrayList<String> NameL=new ArrayList<>();
+
     static int wbX_1;
     static int wbY_1;
     static int wbX_1;
@@ -28,6 +29,10 @@ Public class Engine{
         
     }
     
-    
-      
-}
+    public static void addObject(name,X,Y){
+
+        NameL.add(name);
+        posX.add(X);
+        posY.add(Y);
+
+    }
